@@ -11,8 +11,8 @@ const paths = require('path');
 let transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'manishchahar148@gmail.com',
-    pass: 'python+3.0'
+    user: 'yourgmail@gmail.com',
+    pass: 'password'
   }
 });
 
@@ -61,7 +61,7 @@ let storage = multer.diskStorage({
 // 	useCreateIndex :true,
 // 	useNewUrlParser : true
 // });
-mongoose.connect("mongodb+srv://manish:python+3.0@cluster0-d1eab.mongodb.net/eshop?retryWrites=true&w=majority",{
+mongoose.connect("mongodb+srv://username:password@cluster0-d1eab.mongodb.net/eshop?retryWrites=true&w=majority",{
 useCreateIndex :true,
 useUnifiedTopology:true,
 useNewUrlParser : true
